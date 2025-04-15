@@ -240,17 +240,26 @@
                                                 //*** Recursive Functions  ***//
                                                     
 // 
+
+
+
 // function getRecursive(nr) {
-//     console.log(nr);
+    
 //     if(nr>0){
 //     getRecursive(--nr);
-//     }
+//     }                                 //** output 0 0 1 2 // 
+   
+//     console.log(nr);
 // }
 
-// getRecursive(3);
+//  getRecursive(3);
+
+
+
+
 
 // function logRecursive(nr) {
-//     console.log("started function ", nr);
+//     console.log("started function ", nr);                                 
 //     if(nr>0){
 //     logRecursive(nr-1);
 //     }else{
@@ -262,8 +271,94 @@
 // }
 
 // logRecursive(3);
+//** output of above code  */
+// started function  3
+// started function  2
+// started function  1
+// started function  0
+// done with recursion
+// Ended fun 0
+// Ended fun 1
+// Ended fun 2
+// Ended fun 3
 
 
+
+
+
+//**                                       **** Nested Function ***************               */
+
+// function doOuterFunctionStuff(nr){
+//     console.log("Outer function ");
+//     doInnerFunctionStuff(nr);
+//     function doInnerFunctionStuff(x){
+//         console.log(x+7);
+//         console.log(" I Can  acess outer variable " , nr);
+        
+        
+//     }
+    
+// }
+// doOuterFunctionStuff(2)
+
+
+
+
+
+//**   Anonymous function  
+   
+
+///***                                             Function Callback   */
+
+// let functionVariable = function () {
+//     console.log("not so ");
+    
+// };
+// functionVariable();
+
+// function doFlexibleStuff(executesStuff) {
+//     executesStuff();
+//     console.log("Inside do ");
+    
+// }
+// doFlexibleStuff();
+
+
+//***         *****                in javascript my build in function  some example are given          *****        */
+
+
+
+
+// let youGotthis = function () {
+//     console.log("you are doing well ");
+    
+// };
+
+// setTimeout(youGotthis , 1000);
+
+
+// let youGotthis = function () {
+//     console.log("you are doing well ");
+    
+// };
+
+// setInterval(youGotthis , 1000);
+
+
+// let val = 10;
+// function tester(val) {
+//     val += 10;
+//     if(val<100){
+//         return tester(val);
+//     }
+//     return val;
+// }
+// tester(val);
+// console.log(val);
+
+
+
+//.................                    ..................//
 
 
 

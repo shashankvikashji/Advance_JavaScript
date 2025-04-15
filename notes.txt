@@ -2,3 +2,5 @@
 
 for each  is a arrow function use as a argument 
 
+normal function you change the order of execution 
+iife me order of execution are change 
