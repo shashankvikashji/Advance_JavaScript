@@ -51,7 +51,7 @@
 
 // class Person{
 //     constructor(firstname , lastname){
-//         this.firstname = firstname;
+//         this.firstname = firstname;        
 //         this.lastname = lastname;
 //     }
 
@@ -64,3 +64,89 @@
 // }
 // let p = new Person("shivam" , "Verma");
 // p.greet();
+
+
+
+// use of greet and complement method 
+// class Person{
+//     constructor(firstname , lastname){
+//         this.firstname = firstname;        
+//         this.lastname = lastname;
+//     }
+
+
+// greet(){
+//     console.log("Hii there hlo ",this.firstname);
+    
+// }
+// compliment(name , object){
+//     return "This is wonderfull" + object + " ," + name;
+// }
+// }
+
+// let p = new Person("shivam" , "Verma");
+// p.greet();
+
+
+// let compliment = p.compliment("Harry" , "bhai");
+// console.log(compliment);
+
+
+//Private atribute 
+// class Person{
+// #firstname;
+// #lastname;
+
+// constructor(firstname , lastname){
+//     this.#firstname = firstname;
+//     this.lastname = lastname;
+// }
+
+// }
+
+// let p = new Person("shivam" , " verma ");
+// console.log(p.firstname);
+
+
+// Validation step 
+// class Person{
+//     constructor(firstname , lastname ){
+//         if(firstname.startwith("N")){
+
+//         }
+//     }
+// }
+
+
+// Getter and setter 
+
+class Person{
+    #firstname;
+    #lastname;
+    
+    constructor(firstname , lastname){
+        this.#firstname = firstname;
+        this.lastname = lastname;
+    }
+    get firstname(){
+        return this.#firstname;
+    }
+    set firstname(firstname){
+         this.#firstname = firstname;
+    }
+    get lastname(){
+        return this.#lastname;
+    }
+    set lastname(lastname){
+        this.#lastname = lastname;
+    }
+}
+let p = new Person("Shivam" , "Dubey");
+console.log(p.firstname);
+p.firstname = "hello";
+console.log(p.firstname);
+console.log(p);
+
+
+
+

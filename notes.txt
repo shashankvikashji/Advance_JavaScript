@@ -9,4 +9,7 @@ iife me order of execution are change
  ************---------  What is Classes  :-  class is blueprint or templet for obj creation 
  this development reduced the complexity of application 
 
- 
+ // what is instant :- it is nothing it is a object 
+ // what is abstraction :- hiding a unnecessary obj / details 
+
+ // Atibute value initialised to method se hoga
