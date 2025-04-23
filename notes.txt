@@ -13,3 +13,5 @@ iife me order of execution are change
  // what is abstraction :- hiding a unnecessary obj / details 
 
  // Atibute value initialised to method se hoga
+
+ // inheritance :- 1) single 2) multilevel 3) multiple 4)herical
