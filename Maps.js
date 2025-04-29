@@ -128,9 +128,80 @@
 //     age : "22"
 // };
 
-// // Destructuring
-// let{lastname : name} = Person ;
-// console.log(Person);
+// // Destructuring in String  -> 29 april 
+
+// let name = "GurukulTheSchool";
+// let[a1 , a2 , a3 , a4 ,a5] = name;
+// console.log(a1);
+// console.log(a2);
+
+// Array destrucruring 
+
+// const fruits = [ "banana" ,"orange", "apple" , "Mango" ];
+// //let[f1,,f2] = fruits;
+// //console.log(f1,f2);
+// // Destructuring 
+// let{[0]:f1 , [1]:f2} = fruits;
+// console.log(f1,f2);
+
+
+// // -> Rest Property
+// // rest banane ka tarika trple dot 
+// const num = [10,20,30,40,50,60,70];
+// //Destructuring 
+// const[a,b,...rest] = num;
+// console.log(a,b,rest);
+
+// -> maps
+
+// // swap two variable 
+// let firstName = "Shivam";
+// let lastname = "Verma";
+// //Destructuring 
+// [firstName , lastname] = [lastname , firstName];
+// console.log(firstName,lastname);
+
+
+
+// // -> JavaScript Exponentiation(**) Operator 
+// let x = 5;
+// let z = x**2;
+// let y = Math.pow(x,2);
+// console.log(z);
+// console.log(y);
+
+
+// // Expo Assignment 
+// let x = 5;
+//  let z = x**=2;
+//  console.log(z);
+ 
+
+//Array includes :- it is case sensective 
+
+
+/* const f1 = ["banana" ,"orange", "apple" , "Mango"];
+console.log(f1.includes("Mango"));
+console.log(f1.includes("banana",3));
+ */
+
+
+
+// Trailing comma :- not more than one 
+
+// const arr = ["one","two","three",,];
+// console.log(arr.length);
+
+
+// SparseArray
+
+/* const spA = [1,,,4,5,,];
+console.log(spA.length);
+
+ */
+
+
+
 
 
 
